@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(image.jpg);
+  font-family: "Happy Monkey", system-ui;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*NAVBAR SECTION*/
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  flex-wrap: nowrap;
+}
+
+.first-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+div ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 50vh;
+  font-size: large;
+}
+
+li {
+  color: white;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.symbol {
+  color: white;
+  margin-left: 50px;
+  width: 5vh;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  border: none;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.btn {
+  padding: 10px 50px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(238, 238, 238, 0.425);
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+/*REGISTER SECTION*/
+
+.second-container {
+  margin-top: 300px;
+  width: 50vh;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+p {
+  color: white;
+  text-shadow: 1px 1px black;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+div .log a {
+  color: white;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px black;
+}
+
+input {
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: gainsboro;
+  opacity: 0.6;
+}
+
+.btn-2 {
+  width: 100%;
+  padding: 9px;
+  border-radius: 20px;
+  border: none;
+  background-color: hwb(0 97% 3% / 0.377);
+  color: white;
+}
+
+.btn-2:hover {
+  cursor: pointer;
+  background-color: rgb(66, 63, 63);
+  transition: 0.2s ease-in-out;
+}
